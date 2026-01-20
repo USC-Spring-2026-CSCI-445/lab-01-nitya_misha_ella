@@ -38,7 +38,7 @@ class TurtlebotController:
         ######### Your code starts here #########
         # move forward at a constant speed
 
-        move_cmd.linear.x = 1.0
+        move_cmd.linear.x = 0.2
         move_cmd.angular.z = 0.0
         
         ######### Your code ends here #########
@@ -50,7 +50,7 @@ class TurtlebotController:
         ######### Your code starts here #########
         # move backward at a constant speed
 
-        move_cmd.linear.x = -1.0
+        move_cmd.linear.x = -0.2
         move_cmd.angular.z = 0.0
 
 

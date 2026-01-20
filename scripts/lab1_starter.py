@@ -64,7 +64,7 @@ class TurtlebotController:
         # turn left in place
 
         move_cmd.linear.x = 0.0
-        move_cmd.angular.z = .314
+        move_cmd.angular.z = .5
         
         ######### Your code ends here #########
         self.publish_twist(move_cmd, 5)  # Turn left for 5 seconds
@@ -76,7 +76,7 @@ class TurtlebotController:
         # turn right in place 
 
         move_cmd.linear.x = 0.0
-        move_cmd.angular.z = -.314
+        move_cmd.angular.z = -.5
 
         ######### Your code ends here #########
         self.publish_twist(move_cmd, 5)  # Turn right for 5 seconds
